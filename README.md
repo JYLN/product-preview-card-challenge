@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-using-tailwind-css-NPviS1X_G3)
+- Live Site URL: [Vercel](https://jyln-product-preview-card-challenge.vercel.app/)
 
 ## My process
 
