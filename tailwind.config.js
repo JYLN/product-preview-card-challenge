@@ -17,6 +17,9 @@ module.exports = {
         fraunces: ["Fraunces Variable", "serif"],
         montserrat: ["Montserrat Variable", "sans-serif"],
       },
+      screens: {
+        xs: "600px",
+      },
     },
   },
   plugins: [],
