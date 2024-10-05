@@ -13,15 +13,15 @@
     <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
   <body
-    class="xs:px-3 flex min-h-screen items-center justify-center break-words bg-cream px-4 py-6 font-montserrat text-sm/[1.6429] text-saurus"
+    class="flex min-h-screen items-center justify-center break-words bg-cream px-4 py-6 font-montserrat text-sm/[1.6429] text-saurus xs:px-3"
   >
     <main>
       <article
-        class="xs:grid-cols-2 xs:max-w-screen-xs grid overflow-hidden rounded-lg bg-white"
+        class="grid overflow-hidden rounded-lg bg-white xs:max-w-screen-xs xs:grid-cols-2"
       >
         <picture>
           <source
-            media="(min-width: 600px)"
+            media="(min-width: 37.5rem)"
             srcset="./assets/images/image-product-desktop.jpg"
           />
           <img
@@ -29,25 +29,26 @@
             alt="A bottle of Gabrielle Essence Eau De Parfum"
           />
         </picture>
-        <div class="xs:p-8 grid gap-4 p-6">
+        <div class="grid gap-4 p-6 xs:p-8">
           <p class="text-xs font-medium uppercase tracking-[5px]">Perfume</p>
-          <h1 class="font-fraunces text-[2rem]/none font-bold text-gunmetal">
+          <h2 class="font-fraunces text-[2rem]/none font-bold text-gunmetal">
             Gabrielle Essence Eau De Parfum
-          </h1>
+          </h2>
           <p>
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
           <div class="flex flex-wrap items-center gap-4">
             <p class="font-fraunces text-[2rem] font-bold text-deepaqua">
+              <span class="sr-only">Discounted price</span>
               $149.99
             </p>
-            <p><s>$169.99</s></p>
+            <p><span class="sr-only">Original price</span><s>$169.99</s></p>
           </div>
           <button
-            class="inline-flex items-center justify-center gap-3 rounded-lg bg-deepaqua px-6 py-3 font-bold text-white transition-colors hover:bg-deepaqua-hover focus:bg-deepaqua-hover active:bg-deepaqua-hover"
+            class="inline-flex items-center justify-center gap-3 rounded-lg bg-deepaqua px-6 py-3 font-bold text-white transition-colors hover:bg-deepaqua-hover focus:bg-deepaqua-hover focus:outline focus:outline-offset-2 focus:outline-deepaqua active:bg-deepaqua-hover"
           >
-            <img src="./assets/images/icon-cart.svg" alt="Cart icon" />
+            <img src="./assets/images/icon-cart.svg" alt="" />
             Add to Cart
           </button>
         </div>
